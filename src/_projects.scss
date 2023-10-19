@@ -1,0 +1,30 @@
+@use 'variables' as *;
+
+.projects {
+    
+    &__item {
+        display: flex;
+        gap: 2%;
+        margin: 2% 0 2% 0;
+        padding: 1% 0;
+        border-bottom: 2px solid $primaryColorShadow;
+    }    
+
+    &__img {
+        width: 340px;
+        max-height: 200px;
+        border: 2px solid $primaryColorShadow;
+        border-radius: 5px;
+        padding: 2%;
+    }
+
+    &__info a {
+        text-decoration: none;
+        color: $primaryColor;
+    }
+
+    &__intro {
+        padding: 0 20% 0 0;
+        
+    }
+}

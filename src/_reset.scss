@@ -1,0 +1,31 @@
+@use 'variables' as *;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: $primaryColor;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('/src/img/blob-scene-haikei\(1\).svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}

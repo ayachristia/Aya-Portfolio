@@ -1,0 +1,36 @@
+@use 'variables' as *;
+
+.hero {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 2% 0;
+
+
+    &__links {
+        color: $primaryColor;
+        text-decoration: none;
+        color: $primaryHover;
+        text-shadow: 1px 1px 1px $primaryColor;
+        text-transform: uppercase;
+    }
+
+    &__img {
+        max-width: 400px;
+        opacity: 0.2;
+    }
+
+    &__h1 {
+        font-size: 2rem;
+    line-height: 1.2;
+    }
+}
+
+.header {
+    min-height: 400px;
+}
+

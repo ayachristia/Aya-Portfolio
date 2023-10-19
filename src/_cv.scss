@@ -1,0 +1,17 @@
+.curriculum {  
+    border: 1px solid darkgray;
+    border-radius: 10px 80px;
+    margin-bottom: 10%;
+    padding: 2%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__Img {
+        width: 70%;
+    }
+}
+
+
